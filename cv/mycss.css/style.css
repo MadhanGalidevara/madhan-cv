@@ -1,0 +1,190 @@
+.top-container{
+    position: relative;
+    padding:100px 0 50px 0;
+    background-color:rgb(185, 185, 183);
+}
+.middlecontainer{
+    padding-top: 50px;
+    background-color: rgb(251, 255, 147);
+}
+.lowercontainer{
+    padding: 20px 0 5px;
+    background-color:rgb(199, 133, 133);
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}a{
+    padding: 20px 0;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: bold;  
+}
+a:hover{
+    color: aqua;
+}
+hr{
+    margin: 20px 0 10px 40%;
+    border-top: dotted 6px;
+    width:20%;
+    text-align: center;
+    opacity: 0.5;
+}.name{
+    font-family: "Sacramento", cursive;
+    font-size: 70px;
+}
+h1{
+    margin: 0 10px 0px auto;
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
+    color: #064e5d;
+    font-weight:bold;  
+}
+h3{
+    color:rgb(3, 11, 11);
+    font-weight: normal;
+    margin: 0;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 70px;
+    color: #178dd6;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 280px;
+
+}.mountain{
+    width:700px;
+    height: 500px;
+    position: relative;
+}
+.madhans-image{
+    margin-top: 10px;
+    width: 200px;
+    height:200px;
+}
+.madhan-toy{
+    position: absolute;
+    width: 7.5%;
+    left: 28%;
+    top: 9.5%;
+}.toy{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 110%;
+    left: 41.5%;
+}.edu-toy{
+    width:80px;
+    height:80px;
+    position: absolute;
+    top:209.5%;
+    right:15%
+}
+.skill-toy{
+    width:90px;
+    height:90px;
+    position: absolute;
+    top: 166.5%;
+    left:15%
+}
+.skills-row{
+    width:50%;
+    margin-bottom: 20px;
+    border-radius:40px;
+    background-color: rgb(132, 177, 177);
+    text-align: left;
+    margin-left: 10px;
+}
+.skills-image{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    float:left;
+    background-color: white;
+    margin: 0 10px;
+}.skill-matter{
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 15px;
+}
+.myskills{
+    width:50%;
+    margin-left: 0;
+}
+.education{
+    width:50%;
+    margin: auto;
+    text-align: left;
+    margin-right: 10px;
+    background-color:rgb(132, 177, 177);
+    border-radius: 40px;
+}
+.education-image{
+    width:200px;
+    height:200px;
+    border-radius: 100%;
+    float:left;
+    margin: 0 10px;
+}.education-matter{
+    height:170px;
+    padding-top: 30px;
+    p{
+        margin-top: 3px;
+        margin-left: 33%;
+    }
+}.myeducation{
+    width: 50%;
+}
+button{
+    border-radius: 10px;
+    background-color: #64879e;
+}
+.btn {
+    background: #f0f3f5;
+    background-image: -webkit-linear-gradient(top, #777929, #4f5616);
+    background-image: -moz-linear-gradient(top, #ebc04b, #7d863d);
+    background-image: -ms-linear-gradient(top, #d2c03a, #748e0b);
+    background-image: -o-linear-gradient(top, #4e5125, #5d851c);
+    background-image: linear-gradient(to bottom, #abad4f, #3a550f);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    width: fit-content;
+    margin-left: 45%;
+    margin-top: 0;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #178dd6;
+    background-image: -webkit-linear-gradient(top, #178dd6, #081d2b);
+    background-image: -moz-linear-gradient(top, #178dd6, #081d2b);
+    background-image: -ms-linear-gradient(top, #178dd6, #081d2b);
+    background-image: -o-linear-gradient(top, #178dd6, #081d2b);
+    background-image: linear-gradient(to bottom, #178dd6, #081d2b);
+    text-decoration: none;
+  }
+  .symbols{
+    img{
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        padding-right: 8px;
+        transition:all 0.5s;
+    }
+    img:hover{
+        transform: scale(1.3);
+    }
+  }.copyright{
+    font-size: small;
+  }
